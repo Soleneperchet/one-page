@@ -1,0 +1,39 @@
+/* Banniere */
+body
+{
+    margin: 0;
+    
+}
+
+.banniere_nature
+{
+    background-image: url('images/blueasy_freebie_banniere.jpg');
+    width: 1920px;
+    height: 800px;
+    
+}
+
+.logo_blueasy 
+{
+    padding-top: 64px;
+    
+}
+
+.container 
+{
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-left: 55px;
+    
+    
+}
