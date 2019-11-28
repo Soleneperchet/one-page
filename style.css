@@ -5,6 +5,7 @@ body
     
 }
 
+
 .banniere_nature
 {
     background-image: url('images/blueasy_freebie_banniere.jpg');
@@ -13,27 +14,140 @@ body
     
 }
 
-.logo_blueasy 
+.header
+{
+    height: 150px;
+    opacity: 85%;
+    background-color: #475159;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_blueasy
 {
     padding-top: 64px;
-    
 }
 
-.container 
-{
-    width: 85%;
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0;
-}
-
+/* Menu */
 ul
 {
+    padding-top: 71px;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    justify-content: space-around;
-    margin-left: 55px;
-    
-    
+    margin: auto;
 }
+
+li
+{
+    margin-left: 50px;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.phrase_banniere 
+{
+    font-size: 42px;
+    color: white;
+    font-family: "segoe UI";
+    margin-top: 268px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 160%;
+    background-color: #404b52;
+    opacity: 85%;
+   
+}
+
+/* PARTIE SERVICES */
+.partie_services
+{
+    background-color: #4bcaff;
+    width: 1920px;
+    height: 405px;
+    font-family: "segoe UI";
+}
+
+.titres_services
+{
+    font-size: 24px;
+    color: white;
+    margin: 0;
+ 
+}
+
+h2
+{
+    margin: 0;
+    color: white;
+    width: 1159px;
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 51px;
+   text-decoration: underline;
+}
+
+.contenu
+{
+    width: 1159px;
+    height: 248px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 375px; 
+}
+
+
+.phrases_services
+{
+    color: white;
+    font-size: 12px;
+}
+
+/* LOGO */
+.column_1, .column_2, .column_3, .column_4
+{
+    width: 260px;
+    height: 175px;
+    margin-right: 41px;
+}
+
+.logo_coffee
+{
+    background-image: url('images/logo_coffee.png');
+    width: 35px;
+    height: 49px;
+}
+
+.logo_photo_instant
+{
+    background-image: url('images/logo_appareil_photo.png');
+    width: 48px;
+    height: 48px;
+    margin-top: 1px;
+}
+
+.logo_vieil_appareil
+{
+    background-image: url('images/logo_vieil_appareil_photo.png');
+    width: 47px;
+    height: 45px;
+    margin-top: 4px;
+}
+
+.logo_tableau
+{
+    background-image: url('images/logo_tableau.png');
+    width: 48px;
+    height: 49px;
+}
+
+.logo_coffee, .logo_photo_instant, .logo_vieil_appareil, .logo_tableau
+{
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+
+/* FIN LOGO */
+
+
