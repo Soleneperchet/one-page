@@ -1,4 +1,11 @@
 /* Banniere */
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('polices/segoeui_normal/SegoeUI.ttf');
+    font-family: 'Segoe UI Light';
+    src: url('polices/segoe_ui_light/SegoeUILight.ttf');
+}
+
 body
 {
     margin: 0;
@@ -11,7 +18,7 @@ body
     background-image: url('images/blueasy_freebie_banniere.jpg');
     width: 1920px;
     height: 800px;
-    
+ 
 }
 
 .header
@@ -42,7 +49,8 @@ li
 {
     margin-left: 50px;
     font-size: 11px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI';
+    font-weight: bold;
 }
 
 
@@ -50,7 +58,8 @@ li
 {
     font-size: 42px;
     color: white;
-    font-family: "segoe UI";
+    font-family: 'Segoe UI Light';
+    font-weight: 100;
     margin-top: 268px;
     display: flex;
     justify-content: center;
@@ -67,15 +76,16 @@ li
     background-color: #4bcaff;
     width: 1920px;
     height: 405px;
-    font-family: "segoe UI";
 }
 
-.titres_services
+h3
 {
     font-size: 24px;
     color: white;
     margin: 0;
- 
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    
 }
 
 h2
@@ -86,9 +96,14 @@ h2
     margin-left: 375px;
     margin-right: 375px;
     padding-top: 51px;
-   text-decoration: underline;
+    font-family: 'Segoe UI Light';
+    font-weight: 100;
 }
 
+span
+{
+    border-bottom: 2px solid;
+}
 .contenu
 {
     width: 1159px;
@@ -103,14 +118,19 @@ h2
 {
     color: white;
     font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    width: 259px;
+    height: 67px;
+    
 }
 
 /* LOGO */
 .column_1, .column_2, .column_3, .column_4
 {
-    width: 260px;
+    width: 259px;
     height: 175px;
-    margin-right: 41px;
+    padding-right: 41px;
 }
 
 .logo_coffee
