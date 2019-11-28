@@ -9,7 +9,6 @@
 body
 {
     margin: 0;
-    
 }
 
 
@@ -18,32 +17,41 @@ body
     background-image: url('images/blueasy_freebie_banniere.jpg');
     width: 1920px;
     height: 800px;
- 
+
 }
 
-.header
+.header_1
 {
+    display: flex;
     height: 150px;
     opacity: 85%;
     background-color: #475159;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+    padding: 0px 360px 0px 360px;
 }
 
-.logo_blueasy
+.column_one
 {
     padding-top: 64px;
+    padding-bottom: 64px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-/* Menu */
-ul
+.column_two, .list_1
 {
-    padding-top: 71px;
+    color: black;
     list-style: none;
+    padding-top: 50px;
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+    margin-left: 15px;
+    padding-left: 508px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    
 }
+/* Menu */
 
 li
 {
@@ -88,14 +96,14 @@ h3
     
 }
 
-h2
+.h2_services
 {
     margin: 0;
     color: white;
     width: 1159px;
     margin-left: 375px;
     margin-right: 375px;
-    padding-top: 51px;
+    padding-top: 80px;
     font-family: 'Segoe UI Light';
     font-weight: 100;
 }
@@ -107,7 +115,7 @@ span
 .contenu
 {
     width: 1159px;
-    height: 248px;
+    height: 220px;
     display: flex;
     align-items: flex-end;
     margin-left: 375px; 
@@ -126,10 +134,10 @@ span
 }
 
 /* LOGO */
-.column_1, .column_2, .column_3, .column_4
+.column_three, .column_four, .column_five, .column_six
 {
     width: 259px;
-    height: 175px;
+    height: 182px;
     padding-right: 41px;
 }
 
@@ -167,4 +175,45 @@ span
 {
     background-repeat: no-repeat;
     margin-bottom: 25px;
+}
+
+/*PARTIE PORTFOLIO*/
+.partie_portfolio
+{
+    width: 1920px;
+    height: 884px;
+}
+
+.header_2
+{
+    display: flex;
+    height: 150px;
+    padding: 0px 360px 0px 360px;
+}
+
+.column_seven
+{
+    margin: 0;
+    margin-left: 15px;
+}
+.list_2
+{
+    color: grey;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 508px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    padding-top: 94px;
+}
+.h2_portfolio
+{
+    margin: 0;
+    color: grey;
+    padding-top: 80px;
+    font-family: 'Segoe UI Light';
+    font-size: 30px;
+    font-weight: 100;
 }
