@@ -29,7 +29,7 @@ body
     padding: 0px 360px 0px 360px;
 }
 
-.column_one
+.column_1
 {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -37,7 +37,7 @@ body
     margin-left: 15px;
 }
 
-.column_two, .list_1
+.column_2, .list_1
 {
     color: black;
     list-style: none;
@@ -112,7 +112,7 @@ span
 {
     border-bottom: 2px solid;
 }
-.contenu
+.contenu_1
 {
     width: 1159px;
     height: 220px;
@@ -134,7 +134,7 @@ span
 }
 
 /* LOGO */
-.column_three, .column_four, .column_five, .column_six
+.column_3, .column_4, .column_5, .column_6
 {
     width: 259px;
     height: 182px;
@@ -191,23 +191,12 @@ span
     padding: 0px 360px 0px 360px;
 }
 
-.column_seven
+.column_7
 {
     margin: 0;
     margin-left: 15px;
 }
-.list_2
-{
-    color: grey;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 508px;
-    font-size: 14px;
-    font-family: 'Segoe UI';
-    font-weight: bold;
-    padding-top: 94px;
-}
+
 .h2_portfolio
 {
     margin: 0;
@@ -216,4 +205,67 @@ span
     font-family: 'Segoe UI Light';
     font-size: 30px;
     font-weight: 100;
+}
+
+.list_2 
+{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 505px;
+    padding-top: 90px;
+}
+.list_2 li
+{
+    color: grey;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+.all /*list portfolio */
+{
+    padding-right: 25px;
+}
+.contenu_2
+{
+    width: 1159px;
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 375px;
+}
+
+.column_8, .column_9, .column_10, .column_11
+{
+    width: 377px;
+    height: 182px;
+    padding-right: 30px;
+}
+
+.pont_portfolio
+{
+    background-image: url('images/pont_portfolio.jpg');
+    width: 270px;
+    height: 270px;
+}
+
+.sanfrancisco_portfolio
+{
+    background-image: url('images/sanfrancisco_portfolio.jpg');
+    width: 270px;
+    height: 270px;
+}
+
+.paysage_eau
+{
+    background-image: url('images/paysage_eau_portfolio.jpg');
+    width: 270px;
+    height: 270px;
+}
+
+.paysage_arbre
+{
+    background-image: url('images/paysage_arbre_portfolio.jpg');
+    width: 270px;
+    height: 270px;
 }
