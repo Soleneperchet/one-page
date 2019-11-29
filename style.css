@@ -101,7 +101,7 @@ h1
     font-weight: 100;
 }
 
-span
+.soulignements_mots
 {
     border-bottom: 2px solid;
 }
@@ -322,15 +322,90 @@ span
     height: 305px;
 }
 
-.h2_twitter
+.sous_contenu_4
 {
-    margin: 0;
-    color: white;
     width: 1159px;
     margin-left: 375px;
     margin-right: 375px;
     padding-top: 80px;
-    font-family: 'Segoe UI Light';
-    font-weight: 100;
+    display: flex;
+
 }
 
+.h2_twitter
+{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI Light';
+    font-weight: 100;
+    padding-right: 1034px;
+}
+
+.bird_twitter
+{
+    background-image: url('images/logo_twitter.png');
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 22px;  
+    display: flex;
+}
+
+.tweet
+{
+    width: 1059px;
+    height: 75px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Segoe UI Light';
+    margin-left: 375px;
+    margin-right: 375px;
+    line-height: 200%;
+}
+
+.cheesecake
+{
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+
+/* FIN TWITTER */
+
+/* DEBUT WHO IS JOHN DOE */
+.container_6
+{
+    background-image: url('images/blueasy_freebie_photographie.jpg');
+    width: 1920px;
+    height: 505px;
+}
+
+.sous_contenu_5
+{
+    width: 1159px;
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 80px;
+}
+
+.h2_wijd
+{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI Light';
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.phrases_wijd
+{
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.column_1_wijd, .column_2_wijd
+{
+    width: 568px;
+}
