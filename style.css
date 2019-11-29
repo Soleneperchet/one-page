@@ -187,13 +187,11 @@ span
 .header_2
 {
     display: flex;
-    height: 150px;
     padding: 0px 360px 0px 360px;
 }
 
 .column_7
 {
-    margin: 0;
     margin-left: 15px;
 }
 
@@ -208,11 +206,13 @@ span
 }
 
 .list_2 
-{ 
+{
+    
     display: flex;
     justify-content: space-between;
-    padding-left: 505px;
+    padding-left: 440px;
     padding-top: 90px;
+    margin: 0;
 }
 .list_2 li
 {
@@ -226,46 +226,27 @@ span
 {
     padding-right: 25px;
 }
+
 .contenu_2
 {
-    width: 1159px;
-    height: 220px;
-    display: flex;
-    align-items: flex-end;
+    width: 1169px;
+    height: 570px;
     margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 80px;
+}
+.column_8, .column_9
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.column_8, .column_9, .column_10, .column_11
-{
-    width: 377px;
-    height: 182px;
-    padding-right: 30px;
-}
 
-.pont_portfolio
+.pont, .sanfrancisco, .paysage_eau, .paysage_arbre, .chalet, .surf, .montagne_1, .montagne_2
 {
-    background-image: url('images/pont_portfolio.jpg');
     width: 270px;
     height: 270px;
+    padding-top: 30px;
 }
 
-.sanfrancisco_portfolio
-{
-    background-image: url('images/sanfrancisco_portfolio.jpg');
-    width: 270px;
-    height: 270px;
-}
-
-.paysage_eau
-{
-    background-image: url('images/paysage_eau_portfolio.jpg');
-    width: 270px;
-    height: 270px;
-}
-
-.paysage_arbre
-{
-    background-image: url('images/paysage_arbre_portfolio.jpg');
-    width: 270px;
-    height: 270px;
-}
