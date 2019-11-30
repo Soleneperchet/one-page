@@ -533,3 +533,62 @@ h1
     width: 1920px;
     height: 814px;
 }
+
+.sous_contenu_7
+{
+    width: 1175px;
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 70px;
+}
+
+.h2_contact
+{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI Light';
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.column_1_co
+{
+    width: 1170px;
+    height: 580px;
+    padding-top: 42px;
+}
+
+.p_formulaire
+{
+    margin-bottom: 9px;
+    margin-top: 0px;
+    
+    
+}
+.barre_texte input
+{
+    width: 466px;
+    height: 56px;
+    font-size: 30px;
+    background-color: transparent;
+    border-color: white 2px solid
+    ;
+}
+
+
+label
+{
+
+   display: flex;
+   align-items: flex-start;
+   color: white;
+   font-size: 14px;
+   font-family: 'Segoe UI';
+    font-weight: bold;
+
+}
+
+.formulaire_complet
+{
+    padding-bottom: 40px;
+}
