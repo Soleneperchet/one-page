@@ -565,14 +565,13 @@ h1
     
     
 }
-.barre_texte input
+.barre_moyenne_texte input
 {
     width: 466px;
     height: 56px;
     font-size: 30px;
     background-color: transparent;
-    border-color: white 2px solid
-    ;
+    border: 2px solid white;
 }
 
 
@@ -590,5 +589,46 @@ label
 
 .formulaire_complet
 {
-    padding-bottom: 40px;
+    padding-bottom: 25px;
+}
+
+.grande_barre_texte input
+{
+    width: 1166px;
+    height: 216px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.blue_button
+{
+
+    background-color: #4bcaff;
+    border: none;
+    width: 370px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.message_button
+{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: white;
+}
+
+.column_2_co
+{
+    width: 531px;
+    height: 187px;
+    
+}
+
+
+.phrase_contact
+{
+    color: white;
 }
