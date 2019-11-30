@@ -350,7 +350,7 @@ h1
     display: flex;
 }
 
-.tweet
+.tweet_1
 {
     width: 1066px;
     height: 75px;
@@ -446,6 +446,7 @@ h1
     background-repeat: no-repeat;
     width: 26px;
     height: 27px;
+
 }
 
 .logo_cafe
@@ -454,7 +455,6 @@ h1
     background-repeat: no-repeat;
     width: 31px;
     height: 24px;
-    
 }
 
 .bird_twitter_2, .logo_google, .logo_ball, .logo_cafe
@@ -463,4 +463,53 @@ h1
     border: solid white 2px; 
     width: 60px;
     height: 60px;
+}
+
+/* FIN PARTIE WIJD */
+
+/* DEBUT TESTIMONIALS */
+.container_7
+{
+    background-color: white;
+    width: 1920px;
+    height: 360px;
+}
+
+.sous_contenu_6
+{
+    width: 1175px;
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 80px;
+    display: flex;
+
+}
+
+.h2_testimonials
+{
+    margin: 0;
+    color: grey;
+    font-family: 'Segoe UI Light';
+    font-size: 30px;
+    font-weight: 100;
+    padding-right: 951px;
+}
+
+.guillemets_twitter
+{
+    background-image: url('images/logo_guillemet.png');
+    width: 32px;
+    height: 26px;
+}
+
+.tweet_2
+{
+    width: 1066px;
+    height: 75px;
+    font-size: 28px;
+    color: grey;
+    font-family: 'Segoe UI Light';
+    margin-left: 375px;
+    margin-right: 375px;
+    line-height: 200%;
 }
