@@ -513,3 +513,23 @@ h1
     margin-right: 375px;
     line-height: 200%;
 }
+
+.nom_acteur
+{
+    color: #4bcaff;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    margin-left: 375px;
+    line-height: 74px;
+}
+
+/* FIN PARTIE TESTIMONIALS */
+
+/* DEBUT CONTACT */
+.container_8
+{
+    background-image: url('images/blueasy_freebie_footer.jpg');
+    width: 1920px;
+    height: 814px;
+}
