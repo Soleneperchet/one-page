@@ -624,11 +624,12 @@ label
 {
     width: 531px;
     height: 187px;
-    
+    display: flex;
 }
 
 
 .phrase_contact
 {
     color: white;
+   
 }
