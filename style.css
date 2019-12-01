@@ -54,15 +54,7 @@ body
     font-weight: bold;
     color: white;
     list-style: none;
-}
-
-
-li
-{
     margin-left: 50px;
-    font-size: 11px;
-    font-family: 'Segoe UI';
-    font-weight: bold;
 }
 
 h1
@@ -224,6 +216,7 @@ h1
     font-size: 14px;
     font-family: 'Segoe UI';
     font-weight: bold;
+    margin-left: 50px;
 }
 .all /*list portfolio */
 {
@@ -540,6 +533,7 @@ h1
     margin-left: 375px;
     margin-right: 375px;
     padding-top: 70px;
+    
 }
 
 .h2_contact
@@ -620,16 +614,56 @@ label
     color: white;
 }
 
-.column_2_co
+
+.phrase_contact, .adresse
 {
-    width: 531px;
-    height: 187px;
-    display: flex;
+    color: black;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin: 0;
+    padding-top: 30px;
+    line-height: 155%;
 }
 
+/* FIN CONTACT */
 
-.phrase_contact
+/* DEBUT FOOTER */
+footer
 {
+    background-color: #353f47;
+    width: 1920px;
+    height: 170px;
+}
+
+.section_footer
+{
+    width: 1168px;
+    height: 13px;
+    margin-left: 320px;
+    padding-top: 78px;
+}
+.list_3
+{
+    margin: 0;
+    display: flex; 
+}
+
+.list_3 li
+{
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
     color: white;
-   
+    list-style: none;
+    margin-left: 14px;
+    padding-right: 14px;
+    border-right: 2px solid white;
+    height: 13px;
+}
+
+.annee_fo
+{
+    display: flex;
+    justify-content: flex-end;
 }
