@@ -303,8 +303,16 @@ h1
     height: 400px;
     margin-left: 375px;
     margin-right: 375px; 
-
 }
+
+.sous_sous_contenu
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 135px;
+    padding-top: 80px;
+}
+
 
 .h2_just_default
 {
@@ -314,14 +322,17 @@ h1
     font-size: 30px;
     font-weight: 100;
     padding-top: 80px;
+    padding-bottom: 41px;
+}
+
+.column_1_jds_principal
+{
+    display: flex;
 }
 
 .column_1_jds
 {
-    width: 470px;
-    height: 158px;
-    padding-top: 42px;
-    
+    width: 470px; 
 }
 
 .phrase_default
@@ -346,6 +357,7 @@ h1
     font-family: 'Segoe UI';
     font-weight: bold;
     border: 2px solid #353f46;
+    margin: 0;
 }
 
 /* FIN JDS */
@@ -365,7 +377,6 @@ h1
     margin-right: 375px;
     padding-top: 80px;
     display: flex;
-
 }
 
 .h2_twitter
