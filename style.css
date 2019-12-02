@@ -49,12 +49,34 @@ body
 
 .list_1 li
 {
+    color: white;
+    list-style: none;
     font-size: 14px;
     font-family: 'Segoe UI';
     font-weight: bold;
-    color: white;
-    list-style: none;
-    margin-left: 50px;
+    margin-left: 27px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  
+}
+
+.list_1 li:hover
+{
+   border: #4bcaff 2px solid;
+   
+}
+
+.list_1 .home /*list portfolio */
+{
+    color: #4bcaff;
+    margin-left: 42px;
+    border:2px solid #4bcaff;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 h1
@@ -70,7 +92,6 @@ h1
     line-height: 160%;
     background-color: #404b52;
     opacity: 85%;
-   
 }
 
 /* PARTIE SERVICES */
@@ -205,9 +226,11 @@ h1
     
     display: flex;
     justify-content: space-between;
-    padding-left: 440px;
+    align-items: center;
+    padding-left: 428px;
     padding-top: 90px;
     margin: 0;
+    
 }
 .list_2 li
 {
@@ -216,12 +239,29 @@ h1
     font-size: 14px;
     font-family: 'Segoe UI';
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 29px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  
 }
-.all /*list portfolio */
+
+.list_2 li:hover
 {
-    padding-right: 25px;
-    color: blue;
+   border: #4bcaff 2px solid;
+   
+}
+
+.list_2 .all /*list portfolio */
+{
+    color: #4bcaff;
+    margin-left: 42px;
+    border:2px solid #4bcaff;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .sous_contenu_2
@@ -249,7 +289,7 @@ h1
 }
 /* FIN PORTFOLIO */
 
-/* DEBUT JUST DEFAULT SECTION */
+/* DEBUT JDS */
 .container_4
 {
     background-color: #4e5c64;
@@ -257,13 +297,13 @@ h1
     height: 473px;
 }
 
-.sous_contenu_3
+.sous_contenu_3 
 {
     width: 1169px;
     height: 400px;
     margin-left: 375px;
-    margin-right: 375px;
-    
+    margin-right: 375px; 
+
 }
 
 .h2_just_default
@@ -281,7 +321,7 @@ h1
     width: 470px;
     height: 158px;
     padding-top: 42px;
-
+    
 }
 
 .phrase_default
@@ -309,6 +349,8 @@ h1
 }
 
 /* FIN JDS */
+
+/* DEBUT TWITTER */
 .container_5
 {
     background-color: #4bcaff;
@@ -455,7 +497,6 @@ h1
 {
     display: flex;
     margin-right: 20px;
-
 }
 
 .bordure
@@ -466,7 +507,6 @@ h1
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 /* FIN PARTIE WIJD */
