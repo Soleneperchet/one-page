@@ -15,7 +15,7 @@ body
 .container_1
 {
     background-image: url('images/blueasy_freebie_banniere.jpg');
-    width: 1920px;
+    margin: auto;
     height: 800px;
 
 }
@@ -81,24 +81,29 @@ body
 
 h1
 {
+    display: inline;
     font-size: 42px;
     color: white;
     font-family: 'Segoe UI Light';
     font-weight: 100;
     margin-top: 268px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
     line-height: 160%;
     background-color: #404b52;
     opacity: 85%;
+}
+
+.display_titre
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /* PARTIE SERVICES */
 .container_2
 {
     background-color: #4bcaff;
-    width: 1920px;
+    margin: auto;
     height: 405px;
 }
 
@@ -196,7 +201,7 @@ h1
 .container_3
 {
     background-color: white;
-    width: 1920px;
+    margin: auto;
     height: 844px;
 }
 
@@ -285,7 +290,36 @@ h1
 {
     width: 270px;
     height: 270px;
-    padding-top: 30px;
+   
+}
+
+.position_relative
+{
+    position: relative;
+    width: 270px;
+    height: 270px;
+    margin-top: 30px;
+}
+
+.background_croix
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 80px;
+    color: transparent
+}
+
+.background_croix:hover
+{
+    color: white;
+    background-color: #353f46;
+    opacity: 80%;
 }
 /* FIN PORTFOLIO */
 
@@ -293,7 +327,7 @@ h1
 .container_4
 {
     background-color: #4e5c64;
-    width: 1920px;
+    margin: auto;
     height: 473px;
 }
 
@@ -313,7 +347,12 @@ h1
     padding-top: 80px;
 }
 
-
+.video iframe
+{
+    width: 560px;
+    height: 313px;
+    border: none;
+}
 .h2_just_default
 {
     margin: 0;
@@ -366,7 +405,7 @@ h1
 .container_5
 {
     background-color: #4bcaff;
-    width: 1920px;
+    margin: auto;
     height: 305px;
 }
 
@@ -421,7 +460,7 @@ h1
 .container_6
 {
     background-image: url('images/blueasy_freebie_photographie.jpg');
-    width: 1920px;
+    margin: auto;
     height: 505px;
 }
 
@@ -526,7 +565,7 @@ h1
 .container_7
 {
     background-color: white;
-    width: 1920px;
+    margin: auto;
     height: 360px;
 }
 
@@ -585,7 +624,7 @@ h1
 .container_8
 {
     background-image: url('images/blueasy_freebie_footer.jpg');
-    width: 1920px;
+    margin: auto;
     height: 814px;
 }
 
@@ -595,7 +634,6 @@ h1
     margin-left: 375px;
     margin-right: 375px;
     padding-top: 70px;
-    
 }
 
 .h2_contact
@@ -618,29 +656,26 @@ h1
 {
     margin-bottom: 9px;
     margin-top: 0px;
-    
-    
 }
+
 .barre_moyenne_texte input
 {
     width: 466px;
     height: 56px;
-    font-size: 30px;
+    font-size: 14px;
+    color: white;
     background-color: transparent;
     border: 2px solid white;
 }
 
-
 label
 {
-
    display: flex;
    align-items: flex-start;
    color: white;
    font-size: 14px;
    font-family: 'Segoe UI';
     font-weight: bold;
-
 }
 
 .barre_moyenne_texte
@@ -648,34 +683,29 @@ label
     padding-bottom: 25px;
 }
 
-.grande_barre_texte input
+.grande_barre_texte 
 {
+    color: white;
+    font-size: 14px;
     width: 1166px;
     height: 216px;
-    font-size: 30px;
     background-color: transparent;
     border: 2px solid white;
 }
 
 .blue_button
 {
-
     background-color: #4bcaff;
     border: none;
     width: 370px;
     height: 60px;
     margin-top: 40px;
-}
-
-.message_button
-{
     text-align: center;
     font-size: 14px;
     font-family: 'Segoe UI';
     font-weight: bold;
     color: white;
 }
-
 
 .phrase_contact, .adresse
 {
@@ -695,10 +725,10 @@ label
 {
     padding-top:20px;
 }
+
 .debut_formu_texte
 {
     display: flex;
-
 }
 
 .column_2_co
@@ -706,7 +736,6 @@ label
     width: 532px;
     height: 187px;
     padding-left:130px;
-
 }
 
 /* FIN CONTACT */
@@ -715,7 +744,7 @@ label
 footer
 {
     background-color: #353f47;
-    width: 1920px;
+    margin: auto;
     height: 170px;
 }
 
@@ -726,10 +755,17 @@ footer
     margin-left: 320px;
     padding-top: 78px;
 }
+.column_1_fo
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .list_3
 {
     margin: 0;
     display: flex; 
+    
 }
 
 .list_3 li
@@ -737,21 +773,19 @@ footer
     font-size: 12px;
     font-family: 'Segoe UI';
     font-weight: 600;
-    color: white;
+    color: #4f5d65;
     list-style: none;
     margin-left: 14px;
     padding-right: 14px;
-    border-right: 2px solid white;
-    height: 13px;
+    
 }
 
 .annee_fo
 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+ 
     font-size: 12px;
     font-family: 'Segoe UI';
     font-weight: 600;
-    color: white;
+    color: #4f5d65;
+    margin: 0px;
 }
