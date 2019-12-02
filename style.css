@@ -221,6 +221,7 @@ h1
 .all /*list portfolio */
 {
     padding-right: 25px;
+    color: blue;
 }
 
 .sous_contenu_2
@@ -229,7 +230,7 @@ h1
     height: 644px;
     margin-left: 375px;
     margin-right: 375px;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .column_2_po, .column_3_po
 {
@@ -363,7 +364,7 @@ h1
 
 /* FIN TWITTER */
 
-/* DEBUT WHO IS JOHN DOE */
+/* DEBUT WIJD */
 .container_6
 {
     background-image: url('images/blueasy_freebie_photographie.jpg');
@@ -450,12 +451,22 @@ h1
     height: 24px;
 }
 
-.bird_twitter_2, .logo_google, .logo_ball, .logo_cafe
+.logo_complet, .logo_wijd
 {
+    display: flex;
     margin-right: 20px;
+
+}
+
+.bordure
+{
     border: solid white 2px; 
     width: 60px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* FIN PARTIE WIJD */
