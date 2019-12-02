@@ -581,7 +581,7 @@ label
 
 }
 
-.formulaire_complet
+.barre_moyenne_texte
 {
     padding-bottom: 25px;
 }
@@ -602,7 +602,7 @@ label
     border: none;
     width: 370px;
     height: 60px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .message_button
@@ -617,13 +617,34 @@ label
 
 .phrase_contact, .adresse
 {
-    color: black;
+    color: white;
     font-size: 14px;
     font-family: 'Segoe UI';
     font-weight: 600;
-    margin: 0;
-    padding-top: 30px;
-    line-height: 155%;
+    line-height: 170%;
+}
+
+.phrase_contact
+{
+    padding-top: 6px;
+}
+
+.adresse
+{
+    padding-top:20px;
+}
+.debut_formu_texte
+{
+    display: flex;
+
+}
+
+.column_2_co
+{
+    width: 532px;
+    height: 187px;
+    padding-left:130px;
+
 }
 
 /* FIN CONTACT */
@@ -666,4 +687,9 @@ footer
 {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: white;
 }
