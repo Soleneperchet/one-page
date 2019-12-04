@@ -49,26 +49,34 @@ body
 
 .list_1 li
 {
-    color: white;
+    
     list-style: none;
     font-size: 14px;
     font-family: 'Segoe UI';
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.list_1 a:hover
+{
+   border: #4bcaff 2px solid;
+   color: #4bcaff;
+}
+
+.list_1 a
+{
     margin-left: 27px;
     padding-right: 14px;
     padding-left: 14px;
     padding-top: 6px;
     padding-bottom: 6px;
-  
+    color: white;
+    text-decoration: none;
 }
 
-.list_1 li:hover
-{
-   border: #4bcaff 2px solid;
-   
-}
-
-.list_1 .home /*list portfolio */
+.list_1 .home
 {
     color: #4bcaff;
     margin-left: 42px;
@@ -81,7 +89,6 @@ body
 
 h1
 {
-    display: inline;
     font-size: 42px;
     color: white;
     font-family: 'Segoe UI Light';
@@ -255,6 +262,7 @@ h1
 .list_2 li:hover
 {
    border: #4bcaff 2px solid;
+   color: #4bcaff;
    
 }
 
@@ -668,6 +676,7 @@ h1
     border: 2px solid white;
 }
 
+
 label
 {
    display: flex;
@@ -764,8 +773,7 @@ footer
 .list_3
 {
     margin: 0;
-    display: flex; 
-    
+    display: flex;  
 }
 
 .list_3 li
@@ -773,11 +781,16 @@ footer
     font-size: 12px;
     font-family: 'Segoe UI';
     font-weight: 600;
-    color: #4f5d65;
     list-style: none;
     margin-left: 14px;
     padding-right: 14px;
-    
+    color: #4f5d65;
+}
+
+.list_3 a
+{
+    text-decoration: none;
+    color: #4f5d65;
 }
 
 .annee_fo
