@@ -252,10 +252,10 @@
                                     <div class="formulaire_complet">
                                         <div class="p_formulaire">
                                         <label>FULL NAME</label></div>
-                                    <div class="barre_moyenne_texte"><input type="text" name="pseudo"/></div>
+                                    <div class="barre_moyenne_texte"><input type="text" name="pseudo" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"/></div>
                                         <div class="p_formulaire">
                                         <label>EMAIL</label></div>
-                                    <div class="barre_moyenne_texte"><input type="text" name="email"/></div>
+                                    <div class="barre_moyenne_texte"><input type="text" name="email" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"/></div>
                                     </div>
 
                                             <div class="column_2_co">
@@ -269,7 +269,7 @@
                                 </div>
                                 <div class="formulaire_complet p_formulaire">
                                         <label>MESSAGE</label>
-                                <textarea class="grande_barre_texte" name="message" id="message"></textarea>  
+                                <textarea class="grande_barre_texte" name="message" id="message" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}""/></textarea>  
                                 </div>
                     </form>
                     <button class="blue_button" type="button">MESSAGE</button>

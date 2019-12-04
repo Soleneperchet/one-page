@@ -676,6 +676,25 @@ h1
     border: 2px solid white;
 }
 
+input:focus:valid
+{
+   border: 2px solid green;
+}
+
+input:focus:invalid
+{
+    border: 2px solid red;
+}
+
+textarea:focus:valid
+{
+    border: 2px solid green;
+}
+
+textarea:focus:invalid
+{
+    border: 2px solid red;
+}
 
 label
 {
